@@ -5,6 +5,7 @@ public class Program {
 
     }
 
+    //Creates the object only first time because first time program object is null.
     public static Program getProgram() {
         if (program == null)
             program = new Program();
