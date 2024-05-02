@@ -1,5 +1,11 @@
 # Creational Design Patterns
 
+## 02-05-2024
+
+### Builder Pattern
+
+- The Builder design pattern is used to construct complex objects. It is particularly useful when an object has a large number of attributes, some of which may be optional, and provides a flexible way to create objects with varying configurations.
+
 ## 01-05-2024
 
 ### Factory Pattern
