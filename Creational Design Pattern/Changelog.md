@@ -1,5 +1,11 @@
 # Creational Design Patterns
 
+## 04-05-2024
+
+### Prototype Pattern
+
+- Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs. The concept is to copy an existing object rather than create a new instance from scratch, something that may include costly operations. Prototype design pattern uses java cloning to copy the object.
+
 ## 02-05-2024
 
 ### Builder Pattern
