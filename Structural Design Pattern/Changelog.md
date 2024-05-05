@@ -11,6 +11,10 @@
 
 - The Decorator Design Pattern is a structural design pattern that allows you to enhance or modify the behaviour of objects at runtime. It achieves this by creating a set of decorator classes that are used to wrap concrete components. Each decorator adds a specific feature or behaviour to the component and you can stack multiple decorators to create various combinations.
 
+### Facade Pattern
+
+- Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
 ## 04-05-2024
 
 ### Adapter Pattern
