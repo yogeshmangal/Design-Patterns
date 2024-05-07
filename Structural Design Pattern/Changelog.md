@@ -1,5 +1,27 @@
 # Structural Design Patterns
 
+## 06-05-2024
+
+### Flyweight Pattern
+
+- Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+- There are 3 scenarios in which we can use Flyweight Pattern:
+
+(a) No of objects creation is Huge.
+(b) Object creation is heavy on memory.
+(c) Object has intrinsic and extrinsic properties.
+
+Note: Intrinsic: The unique object properties.
+	  Extrinsic: The properties that are added by client.
+
+For eg:
+class Book {
+   String name;
+   String type;
+   int price;
+}
+Here, 'type' will be either comic or study, so it is a intrinsic property because this is fix and rest name and price are extrinisic because these are set by client.
+
 ## 05-05-2024
 
 ### Composite Pattern
