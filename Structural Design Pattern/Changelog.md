@@ -22,6 +22,10 @@ class Book {
 }
 Here, 'type' will be either comic or study, so it is a intrinsic property because this is fix and rest name and price are extrinisic because these are set by client.
 
+### Proxy Pattern
+
+- Proxy Design Pattern is like a placeholder for another object. It controls access to that object, allowing you to add extra functionalities like lazy initialization, access control or caching without changing the original object's code. So, it's like a middleman that handle requests to the real object, adding some extra stuff as needed.
+
 ## 05-05-2024
 
 ### Composite Pattern
