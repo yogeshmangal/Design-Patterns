@@ -1,5 +1,11 @@
 # Behavioural Design Patterns
 
+## 11-05-2024
+
+### Interpreter Pattern
+
+- The Interpreter pattern is a behavioral design pattern that specifies how to evaluate sentences in a language. It defines a grammatical representation for a language, as well as an interpreter that can interpret sentences in that language.
+
 ## 09-05-2024
 
 ### Command Pattern
