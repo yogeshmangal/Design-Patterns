@@ -6,6 +6,10 @@
 
 - The Interpreter pattern is a behavioral design pattern that specifies how to evaluate sentences in a language. It defines a grammatical representation for a language, as well as an interpreter that can interpret sentences in that language.
 
+### Iterator Pattern
+
+- The Iterator pattern is a behavioral design pattern that provides a way to access the elements of an aggregate object (such as a list) sequentially without exposing its underlying representation. It separates the traversal logic from the aggregate object, making it possible to iterate over the elements of the collection in a uniform manner.
+
 ## 09-05-2024
 
 ### Command Pattern
