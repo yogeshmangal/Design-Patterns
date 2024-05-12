@@ -6,6 +6,20 @@
 
 - The Mediator Design Pattern is a behavioral design pattern that promotes loose coupling by controlling communication between different objects. It centralizes communication between objects by introducing a mediator object that encapsulates how objects interact.
 
+### Memento Pattern
+
+- The Memento Pattern is a behavioral design pattern that allows an object to capture its internal state and restore it later, without exposing its internal structure. It's like taking a snapshot of an object's state and being able to revert to that snapshot whenever needed.
+
+- Here's a breakdown of the components of the Memento Pattern:
+
+- a) Originator: This is the object whose state needs to be saved. It creates a memento object containing a snapshot of its current state and uses that memento to restore its state later.
+
+- b) Memento: This is the object that stores the state of the originator. It has two main responsibilities: storing the state of the originator and providing access to the state for the originator.
+
+- c) Caretaker: This is the object that keeps track of the mementos. It doesn't modify or even look inside the mementos; it just holds onto them and provides them back to the originator when needed.
+
+- The Memento Pattern is useful in scenarios where you need to implement undo functionality, maintain a history of states, or provide a way to revert to previous states of an object.
+
 ## 11-05-2024
 
 ### Interpreter Pattern
