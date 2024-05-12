@@ -1,5 +1,11 @@
 # Behavioural Design Patterns
 
+## 12-05-2024
+
+### Mediator Pattern
+
+- The Mediator Design Pattern is a behavioral design pattern that promotes loose coupling by controlling communication between different objects. It centralizes communication between objects by introducing a mediator object that encapsulates how objects interact.
+
 ## 11-05-2024
 
 ### Interpreter Pattern
