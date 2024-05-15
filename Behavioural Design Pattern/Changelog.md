@@ -1,5 +1,11 @@
 # Behavioural Design Patterns
 
+## 15-05-2024
+
+### Observer Pattern
+
+- The Observer Design Pattern is a behavioral pattern where an observable maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is commonly used to implement distributed event-handling systems.
+
 ## 12-05-2024
 
 ### Mediator Pattern
