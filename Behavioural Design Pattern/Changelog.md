@@ -1,5 +1,11 @@
 # Behavioural Design Patterns
 
+## 16-05-2024
+
+### State Pattern
+
+- The State design pattern is a behavioral design pattern that allows an object to change its behavior when its internal state changes. The pattern encapsulates state-specific behavior into separate classes and delegates the behavior to the current state, making the object appear to change its class.
+
 ## 15-05-2024
 
 ### Observer Pattern
