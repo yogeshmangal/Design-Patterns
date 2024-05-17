@@ -1,5 +1,13 @@
 # Behavioural Design Patterns
 
+## 17-05-2024
+
+### Strategy Pattern
+
+- The Strategy Design Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing clients to switch algorithms dynamically without altering the code structure.
+- We will use the Strategy Design Pattern when we have the same code present in the subclasses and that code is not present in the Parent class. So to optimize the redundant code, we use the Strategy Pattern.
+- I have done the implementation with and without Strategy Pattern, so that it's easy to understand the Strategy Pattern.
+
 ## 16-05-2024
 
 ### State Pattern
