@@ -14,7 +14,7 @@ public class Test {
         Vehicle jeep = new Jeep();
         jeep.drive();
 
-        /* Here we can seem Bike and Scooty are Subclasses and they have the same code.
+        /* Here we can see Bike and Scooty are Subclasses and they have the same code.
            Similarly, Car and Jeep are Subclasses and they have the same code. So to handle
            the redundant code, we will use the Strategy Pattern. */
     }
