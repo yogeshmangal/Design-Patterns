@@ -1,5 +1,11 @@
 # Behavioural Design Patterns
 
+## 18-05-2024
+
+### Template Pattern
+
+- The Template Design Pattern is a behavioral design pattern that defines the basic structure of an algorithm in a superclass, while allowing subclasses to provide specific implementations of certain steps of the algorithm without modifying its overall structure.
+
 ## 17-05-2024
 
 ### Strategy Pattern
