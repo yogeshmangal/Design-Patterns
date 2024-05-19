@@ -19,7 +19,7 @@ In this repository, I will systematically cover various design patterns and thei
 - Below are the types of Creational Design Pattern:
 
 	- (a) Singleton Pattern
-	-( b) Factory Pattern
+	- (b) Factory Pattern
 	- (c) Abstract Factory Pattern
 	- (d) Builder Pattern
 	- (e) Prototype Pattern
