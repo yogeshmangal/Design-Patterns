@@ -1,5 +1,13 @@
 # Behavioural Design Patterns
 
+## 19-01-2025
+
+### Null Object Design Pattern
+
+- The Null Object Design Pattern is a behavioral design pattern that provides a default, "do nothing" implementation of an interface or abstract class, representing the absence of an object, instead of using null.
+- The key idea is Instead of returning null to represent the absence of an object (which can lead to NullPointerException and conditional checks), return a "neutral" object that implements the same interface but does nothing or provides default behavior.
+- It is used to avoid null checks everywhere in the code.
+
 ## 19-05-2024
 
 ### Visitor Pattern
