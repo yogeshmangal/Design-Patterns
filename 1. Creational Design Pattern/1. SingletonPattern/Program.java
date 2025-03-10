@@ -1,7 +1,7 @@
 public class Program {
     private static Program program;
 
-    private Program() {
+    private Program() {   //Here we made the constructor as private so that no one from outside can create the Object of this class.
 
     }
 
