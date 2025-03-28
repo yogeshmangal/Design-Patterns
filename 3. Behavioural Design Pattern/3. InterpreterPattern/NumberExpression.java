@@ -2,8 +2,8 @@ public class NumberExpression implements Expression {
 
     private int num;
 
-    public NumberExpression(int numb) {
-        this.num = numb;
+    public NumberExpression(int num) {
+        this.num = num;
     }
 
     @Override
