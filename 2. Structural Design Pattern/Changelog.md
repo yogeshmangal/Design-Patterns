@@ -4,7 +4,7 @@
 
 ### Flyweight Pattern
 
-- Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+- The Flyweight Pattern is a structural design pattern that minimizes memory usage by sharing common object instances instead of creating new ones for every request. It is particularly useful when a large number of similar objects need to be created, as it reduces object duplication and improves performance.
 - There are 3 scenarios in which we can use Flyweight Pattern:
 
 (a) No of objects creation is Huge.
@@ -12,7 +12,7 @@
 (c) Object has intrinsic and extrinsic properties.
 
 Note: Intrinsic: The unique object properties.
-	  Extrinsic: The properties that are added by client.
+      Extrinsic: The properties that are added by client.
 
 For eg:
 class Book {
