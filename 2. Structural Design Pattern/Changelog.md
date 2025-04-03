@@ -12,7 +12,7 @@
 (c) Object has intrinsic and extrinsic properties.
 
 Note: Intrinsic: The unique object properties.
-      Extrinsic: The properties that are added by client.
+            Extrinsic: The properties that are added by client.
 
 For eg:
 class Book {
