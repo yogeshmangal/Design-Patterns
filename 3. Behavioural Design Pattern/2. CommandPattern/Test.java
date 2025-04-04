@@ -11,8 +11,13 @@ public class Test {
         RemoteController remoteController = new RemoteController();
         remoteController.setCommand(lightOnCommand);
         remoteController.pressButton();
+        remoteController.undo();
+
+        System.out.println();
 
         remoteController.setCommand(lightOffCommand);
         remoteController.pressButton();
+        remoteController.undo();
+        remoteController.undo();
     }
 }
