@@ -1,19 +1,20 @@
 public class Originator {
-    private String state;
 
-    public void setState(String state) {
-        this.state = state;
+    private String content = "";
+
+    public void type(String word) {
+        content += word;
     }
 
-    public String getState() {
-        return this.state;
+    public String getContent() {
+        return content;
     }
 
-    public Memento saveStateToMemento() {
-        return new Memento(state);
+    public Memento saveContent() {
+        return new Memento(content);
     }
 
-    public void getStateFromMemento(Memento memento) {
-        state = memento.getState();
+    public void restore(Memento memento) {
+        content = memento.getContent();
     }
 }

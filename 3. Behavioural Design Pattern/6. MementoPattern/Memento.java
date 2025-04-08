@@ -1,11 +1,12 @@
 public class Memento {
-    private String state;
 
-    public Memento(String state) {
-        this.state = state;
+    private String content;
+
+    public Memento(String content) {
+        this.content = content;
     }
 
-    public String getState() {
-        return this.state;
+    public String getContent() {
+        return content;
     }
 }
