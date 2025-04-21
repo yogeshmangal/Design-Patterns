@@ -1,5 +1,11 @@
-import java.util.Iterator;
+public class ColorCollection {
+    private String[] colors;
 
-public interface ColorCollection {
-    Iterator<String> createIterator();
+    public ColorCollection(String[] colors) {
+        this.colors = colors;
+    }
+
+    public ColorIterator getIterator() {
+        return new ColorIteratorImpl(colors);
+    }
 }
